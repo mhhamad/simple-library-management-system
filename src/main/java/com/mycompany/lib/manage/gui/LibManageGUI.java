@@ -17,8 +17,9 @@ import java.util.Scanner;
 public class LibManageGUI {
 
     public static void main(String[] args) {
-        controlGUI();
+       lib_UI UI = new lib_UI();
        
+       UI.start();
     }
     
     public static void controlGUI(){

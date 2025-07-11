@@ -10,7 +10,7 @@ public class Book {
    
 
     public Book(String name) {
-        this.name = name;
+        this.name = name.trim();
         
     }
 
@@ -23,24 +23,9 @@ public class Book {
     public String getName() {
         return name;
     }
-
-   
-
+    
     @Override
     public String toString() {
         return name + " book";
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || obj.getClass() != getClass()) return false;
-        Book other = (Book) obj;
-        return Objects.equals(name, other.name);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(name);
     }
 }
