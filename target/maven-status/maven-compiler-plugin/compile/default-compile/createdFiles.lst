@@ -1,2 +1,5 @@
 com\mycompany\lib\manage\gui\Book.class
+com\mycompany\lib\manage\gui\Book_handler.class
 com\mycompany\lib\manage\gui\LibManageGUI.class
+com\mycompany\lib\manage\gui\lib_UI.class
+com\mycompany\lib\manage\gui\IBook_handler.class
